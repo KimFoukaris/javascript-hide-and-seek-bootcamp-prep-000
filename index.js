@@ -23,7 +23,7 @@ function deepestChild() {
     for (let i=0; i<children.length; i++) {
 
       if (children[i] != null) {
-        temp = children[i].innerHTML
+        temp = children[i]
       }
     }
   return temp
