@@ -22,7 +22,7 @@ function deepestChild() {
   var temp = ""
     for (let i=0; i<children.length; i++) {
       //if (children[i] != null) {
-        var temp = children[i].innerHTML
+        temp = children[i].innerHTML
       //}
     }
 }
